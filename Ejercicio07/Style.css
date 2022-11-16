@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #161717;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 420px;
+    margin: auto;
+    background-color: #161717;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.googlebtn{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+.googlebtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.googlebtn span{
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+.googlebtn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.googlebtn picture img{
+    width: 110%;
+}
+.twitterbtn{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    
+}
+.twitterbtn picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitterbtn img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.twitterbtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.separator{
+    display: flex;
+    width: 100%;
+}
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+.separator span{
+    color: white;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+.input-section{
+    display: flex;
+    width: 80%;
+    gap: 10px;
+}
+label{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+label input{
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 12pt;
+}
+label.form input:focus{
+    background-color: white;
+    border: 2px solid #454045;
+    box-shadow: 0 0 2px black;
+}
+label.form input:hover{
+    background-color: white;
+    border: 2px solid #454045;
+    box-shadow: 0 0 2px black;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+
+}
+label.checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+label.checkbox input[type="checkbox"]{
+    width: 3%;
+}
+label.checkbox span {
+    font-weight: 400;
+    padding-left: 15pxs;
+}
+.submitbtn{
+    background-color: #ea4c89;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.submitbtn:hover{
+    opacity: 0.6;
+}
