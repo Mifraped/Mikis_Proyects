@@ -1,0 +1,1 @@
+const edad = Number(prompt("Que edad tienes?"))
